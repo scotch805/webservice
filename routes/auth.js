@@ -5,6 +5,7 @@ module.exports = {
         console.log(req);
         console.log(req);
         if(req.isAuthenticated()) {
+            console.log('로그인된 살인잡니다.')
             next();
         }
         else {
