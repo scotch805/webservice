@@ -1,6 +1,7 @@
 module.exports = {
     CheckAuth: async function(req, res, next) {
-        console.log('auth');
+        console.log(req);
+        console.log(req);
         if(req.isAuthenticated()) {
             next();
         }
