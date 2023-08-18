@@ -9,6 +9,7 @@ module.exports = {
             console.log('로그인된 사용자입니다.')
             console.log('아이고야')
             console.log('꼬였네')
+            console.log('꼬였어')
             next();
         }
         else {
