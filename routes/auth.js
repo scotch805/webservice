@@ -4,6 +4,7 @@ module.exports = {
         console.log(req);
         console.log(req);
         console.log(req);
+        console.log(req);
         if(req.isAuthenticated()) {
             console.log('로그인된 사용자입니다.')
             console.log('아이고야')
