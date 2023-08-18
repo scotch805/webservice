@@ -3,6 +3,7 @@ module.exports = {
         console.log('auth');
         console.log('auth');
         if(req.isAuthenticated()) {
+            console.log('로그인된 살인잡니다.')
             next();
         }
         else {
